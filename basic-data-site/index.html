@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Analysis Publication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="paywall-container">
+        <h1>Data Analysis Report</h1>
+        
+        <div id="login-section">
+            <h2>Access Restricted</h2>
+            <form id="payment-form">
+                <input type="password" id="access-key" placeholder="Enter Access Key">
+                <button type="submit">Access Report</button>
+            </form>
+        </div>
+
+        <div id="data-section" style="display:none;">
+            <div id="csv-display"></div>
+            <a href="data/analysis.csv" download>Download Full CSV</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
