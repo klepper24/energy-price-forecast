@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  kody:
-    image: kody
-    build:
-      context: .
-      dockerfile: ./Dockerfile
